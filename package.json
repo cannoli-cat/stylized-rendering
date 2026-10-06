@@ -1,6 +1,6 @@
 {
   "name": "com.cannoli-cat.stylized-rendering",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "displayName": "Stylized Rendering",
   "description": "Stylized URP screen effects (pen contour lines, ordered/blue-noise dithering with world-stable anchoring, OKLab palette swapping, sharpness). Licensed CC BY 4.0: credit required.",
   "unity": "6000.5",

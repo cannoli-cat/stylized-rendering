@@ -42,14 +42,15 @@ namespace CannoliCat.Stylized {
         [SerializeField] [Range(1f, 40f)] private float widthFrequency = 8f;
         [SerializeField] [Range(0f, 24f)] private float boilRate = 8f;
         [SerializeField] [Range(0f, 1f)] private float paperGrain = 0.3f;
+        [SerializeField] [Tooltip("Swap paper and line colors (light lines on dark paper)")] private bool invert;
         
         public void Apply(Material material) {
             material.SetFloat(DepthSensitivity, depthSensitivity);
             material.SetFloat(NormalSensitivity, normalSensitivity);
             material.SetFloat(Thickness, thickness);
             material.SetFloat(Threshold, threshold);
-            material.SetColor(PaperColor, paperColor);
-            material.SetColor(LineColor, lineColor);
+            material.SetColor(PaperColor, invert ? lineColor : paperColor);
+            material.SetColor(LineColor, invert ? paperColor : lineColor);
             material.SetFloat(PaperMix, paperMix);
             material.SetFloat(ColorSensitivity, colorSensitivity);
             material.SetFloat(BandCount, bandCount);

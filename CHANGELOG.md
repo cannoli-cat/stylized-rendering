@@ -3,6 +3,11 @@
 All notable changes to this package are documented here.
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and versions follow [Semantic Versioning](https://semver.org/).
 
+## [1.1.0]
+
+### Added
+- **Contour**: Invert toggle. It swaps the paper and line colors so you can draw light lines on dark paper.
+
 ## [1.0.0]
 
 First release as a Unity package (`com.cannoli-cat.stylized-rendering`). Requires Unity 6 / URP RenderGraph.
