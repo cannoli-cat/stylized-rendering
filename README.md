@@ -10,10 +10,10 @@ Requires **Unity 6** with **URP** (RenderGraph).
 In Unity, open **Window → Package Manager**, click **+ → Install package from git URL…**, and enter:
 
 ```
-https://github.com/cannoli-cat/stylized-rendering.git#v1.0.0
+https://github.com/cannoli-cat/stylized-rendering.git#v1.1.0
 ```
 
-The `#v1.0.0` pins a release. Remove it to track the latest `main`.
+The `#v1.1.0` pins a release. Remove it to track the latest `main`.
 
 ## Features
 
