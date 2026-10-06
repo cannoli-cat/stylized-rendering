@@ -1,0 +1,30 @@
+{
+  "name": "com.cannoli-cat.stylized-rendering",
+  "version": "1.0.0",
+  "displayName": "Stylized Rendering",
+  "description": "Stylized URP screen effects (pen contour lines, ordered/blue-noise dithering with world-stable anchoring, OKLab palette swapping, sharpness). Licensed CC BY 4.0: credit required.",
+  "unity": "6000.5",
+  "dependencies": {
+    "com.unity.render-pipelines.universal": "17.5.0"
+  },
+  "keywords": [
+    "stylized",
+    "pixel-art",
+    "dither",
+    "palette",
+    "post-processing",
+    "urp"
+  ],
+  "author": {
+    "name": "Tyler Wolfe",
+    "url": "https://github.com/cannoli-cat"
+  },
+  "license": "CC-BY-4.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cannoli-cat/stylized-rendering.git"
+  },
+  "documentationUrl": "https://github.com/cannoli-cat/stylized-rendering#readme",
+  "changelogUrl": "https://github.com/cannoli-cat/stylized-rendering/blob/main/CHANGELOG.md",
+  "licensesUrl": "https://github.com/cannoli-cat/stylized-rendering/blob/main/LICENSE.md"
+}
