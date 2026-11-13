@@ -1,7 +1,6 @@
 # Stylized Rendering
 
-Stylized screen effects for Unity (URP) focused on pixel-art, retro and hand-drawn aesthetics:
-contour lines, dithering, palette swapping and sharpness.
+Stylized screen effects for Unity (URP)
 
 ## Installation
 
